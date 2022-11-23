@@ -55,10 +55,10 @@
 padding-top: 20px;
 }
 .language-group{
-    padding: 20px 0;
+    padding: 10px 0;
 }
 .language-group p{
-    line-height: 5px;
+    line-height: 15px;
 }
 
 .footer-three{
@@ -85,7 +85,9 @@ padding-top: 20px;
     height: 3px;
     transform: translate(-4%, 0%);
 } */
-
+.social-icon{
+    display: none;
+}
 @media only screen and (max-width:688px) {
     .footer-one {
         grid-template-columns: repeat(2, 1fr);
@@ -100,5 +102,19 @@ padding-top: 20px;
     }
     .Social{
         display: none;
+    }
+    .social-icon{
+        display: block;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 25px;
+        font-size: 25px;
+
+    }
+    .footer-three{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 16px;
     }
 }

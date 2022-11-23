@@ -1,7 +1,7 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import '../Styles/Footer.css'
-import { AiOutlineArrowRight } from "react-icons/ai";
+import { AiOutlineArrowRight, AiOutlineInstagram, AiFillTwitterSquare, AiFillLinkedin } from "react-icons/ai";
 
 const Footer = () => {
     return (
@@ -49,14 +49,14 @@ const Footer = () => {
                         <h6>Location preferences</h6>
                         <p className='before'></p>
                         <div className='shipping'>
-                        <h6>Shipping:</h6>
-                        <Link>Hong Kong SAR, China</Link>
+                            <h6>Shipping:</h6>
+                            <Link>Hong Kong SAR, China</Link>
                         </div>
                         <h6 className='language'>Language:</h6>
                         <div className='language-group'>
-                        <Link>English</Link>
-                        <p>繁體中文</p>
-                        <p>简体中文</p>
+                            <Link>English</Link>
+                            <p>繁體中文</p>
+                            <p>简体中文</p>
                         </div>
                     </div>
 
@@ -93,7 +93,16 @@ const Footer = () => {
 
                 </div>
                 <p className='before footer-before'></p>
-                <div className='footer-three'> <span className='aesop'>© Aesop</span></div>
+                <div className='footer-three'>
+                    <div>
+                        <span className='aesop'>© Aesop</span>
+                    </div>
+                    <div className='social-icon'>
+                        <AiOutlineInstagram />
+                        <AiFillTwitterSquare />
+                        <AiFillLinkedin />
+                    </div>
+                </div>
             </div>
 
         </>
