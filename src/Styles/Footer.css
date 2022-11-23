@@ -95,7 +95,10 @@ padding-top: 20px;
         grid-row-gap: 20px;
 
     }
-    .email{
-        grid-column: 1/3;
+    .Sustainability{
+        grid-column: 1 span;
+    }
+    .Social{
+        display: none;
     }
 }
