@@ -1,0 +1,23 @@
+.header{
+    background: #a6672b;
+    text-align: center; 
+    color: #fff;
+}
+.header p{
+    font-size: .9rem;
+    line-height: 3;
+    margin: 0;
+}
+.header a{
+    color: #fff;
+    font-weight: 700;
+    text-decoration: none;
+}
+.header a:hover{
+    text-decoration:underline;
+}
+.header .two{
+    background: #252525;
+    text-align: center; 
+    color: #fff;
+}

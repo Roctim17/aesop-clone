@@ -1,0 +1,44 @@
+.right-display{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    gap:100px;
+}
+.right-display .left{
+    width: 35%;
+    padding-left: 100px;
+}
+.right-display .right{
+    width: 65%;
+    
+}
+.right-display .right img{
+    width: 100%;
+    height: 90%;
+}
+.right-display .text-p{
+font-size: 16px;
+padding-bottom: 20px;
+}
+.right-display .left h3{
+    padding: 20px 0;
+}
+@media only screen and (max-width:688px){
+    .right-display{
+        flex-direction: column;
+        gap:15px;
+        text-align: center;
+    }
+    .right-display .left{
+        width: 100%;
+        padding-left: 15px;
+    }
+    .right-display .right{
+        width: 100%;
+        
+    }
+    .right-display .right img{
+        width: 100%;
+        height: 90%;
+    }
+}

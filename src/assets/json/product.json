@@ -1,0 +1,26 @@
+[
+    {
+        "id":1,
+        "image": "https://i.ibb.co/jymqnKR/slide4.webp",
+        "title": "Industrious",
+        "subtitle": "Beloved formulations for gift-giving"
+    },
+    {
+        "id":2,
+        "image": "https://i.ibb.co/hVYxvw0/slide1.webp",
+        "title": "Industrious",
+        "subtitle": "Beloved formulations for gift-giving"
+    }, 
+    {
+        "id":3,
+        "image": "https://i.ibb.co/hc2pMCv/slide2.webp",
+        "title": "Industrious",
+        "subtitle": "Beloved formulations for gift-giving"
+    },
+    {
+        "id":4,
+        "image": "https://i.ibb.co/q9CKBmw/slide3.webp",
+        "title": "Industrious",
+        "subtitle": "Beloved formulations for gift-giving"
+    }
+]

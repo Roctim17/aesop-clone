@@ -1,0 +1,33 @@
+.display{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+    padding: 150px 90px;
+}
+.left{
+    width: 50%;
+}
+.right{
+    width: 50%;
+}
+.display img{
+    width: 100%;
+}
+.display h6{
+    padding: 30px 0;
+}
+@media only screen and (max-width:688px){
+    .display{
+        flex-direction: column;
+        width: 100%;
+        padding: 15px;
+        align-items: center;
+    }
+    .left{
+        width: 100%;
+    }
+    .right{
+        width: 100%;
+    }
+}

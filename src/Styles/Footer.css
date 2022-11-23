@@ -1,0 +1,14 @@
+.footer{
+    background: #333;
+    color: #fff;
+}
+.footer hr{
+    border: 1px solid #fff;
+}
+.footer li{
+    list-style: none;
+}
+.aesop{
+    background: #333;
+    color: #fff;
+}
