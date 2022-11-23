@@ -1,40 +1,101 @@
-.footer{
-    background: #333;
-    color: #fff;
+.footer, .email span {
+    background: #252525;
+    color: #fffef2;
+    line-height: 25px;
 }
-.footer hr{
+
+.footer hr {
     border: 1px solid #fff;
 }
-.footer li{
+
+.footer li {
     list-style: none;
 }
-.aesop{
+
+/* .aesop {
     background: #333;
-    color: #fff;
-}
-.footer-one{
+    color: #fffef2;
+} */
+
+.footer-one {
     display: grid;
-    /* grid-template-columns: repeat(4, 1fr); */
-    grid-template-columns: 2fr 1fr 1fr 1fr;
-    justify-content: center;
-    /* align-items: center; */
-    grid-gap: 35px;
+    /* grid-template-columns: 2fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(5,1fr);
+    grid-template-rows: auto 1fr;
+    padding: 50px 40px;
+    /* justify-content: center; */
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
 }
-.one{
-    width: 100%;
+.email, .Sustainability{
+    grid-column: 1/3;
+}
+.footer a{
+    color: #fffef2;
 }
 .before{
+    border-bottom: 1px solid #fffef2;
+    margin: 16px 0;
+}
+.footer-before{
+    border-bottom: 3px solid #fffef2;
+    margin: 0;
+    
+}
+
+.one {
+    width: 100%;
+    font-size: 14px;
+}
+.one p{
+    line-height: 23px;
+}
+
+.language{
+padding-top: 20px;
+}
+.language-group{
+    padding: 20px 0;
+}
+.language-group p{
+    line-height: 5px;
+}
+
+.footer-three{
+    padding: 21.5px 40px;
+    
+}
+.aesop{
+    font-size: 17px;
+}
+ 
+/* for before use */
+/*.before {
     padding: 10px;
     width: 100%;
     position: relative;
 }
-.before::before{
+
+ .before::before {
     content: '';
     display: block;
     position: absolute;
-    background: #fff;
+    background: #d6d5cb;
     width: 100%;
-    height: 1.5px;
+    height: 3px;
     transform: translate(-4%, 0%);
-}
+} */
 
+@media only screen and (max-width:688px) {
+    .footer-one {
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: auto 1fr;
+        padding: 35px 20px;
+        grid-column-gap: 20px;
+        grid-row-gap: 20px;
+
+    }
+    .email{
+        grid-column: 1/3;
+    }
+}

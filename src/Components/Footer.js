@@ -6,12 +6,12 @@ import { AiOutlineArrowRight } from "react-icons/ai";
 const Footer = () => {
     return (
         <>
-            <div className='footer bg-dark'>
-                <div className='footer-one p-5 m-0'>
+            <div className='footer'>
+                <div className='footer-one m-0'>
 
                     <div className='one email'>
                         <div class="input-group">
-                            <span class="input-group-text bg-dark text-light w-100 d-flex justify-content-between"> <span>Email address </span> <AiOutlineArrowRight/> </span>
+                            <span class="input-group-text w-100 d-flex justify-content-between "> <span>Email address </span> <AiOutlineArrowRight /> </span>
                         </div>
                         <div>
                             <div class="form-check py-3">
@@ -48,13 +48,16 @@ const Footer = () => {
                     <div className='one Location'>
                         <h6>Location preferences</h6>
                         <p className='before'></p>
-                        <p>Shipping:</p>
-                        <p>Hong Kong SAR, China</p>
-                        <p></p>
-                        <p>Language:</p>
-                        <p>English</p>
+                        <div className='shipping'>
+                        <h6>Shipping:</h6>
+                        <Link>Hong Kong SAR, China</Link>
+                        </div>
+                        <h6 className='language'>Language:</h6>
+                        <div className='language-group'>
+                        <Link>English</Link>
                         <p>繁體中文</p>
                         <p>简体中文</p>
+                        </div>
                     </div>
 
 
@@ -89,10 +92,10 @@ const Footer = () => {
                     </div>
 
                 </div>
-
+                <p className='before footer-before'></p>
+                <div className='footer-three'> <span className='aesop'>© Aesop</span></div>
             </div>
-            <hr className='m-0' />
-            <div className='footer-three px-5 aesop'> <p className='py-3'>© Aesop</p></div>
+
         </>
     );
 };
