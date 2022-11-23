@@ -12,3 +12,29 @@
     background: #333;
     color: #fff;
 }
+.footer-one{
+    display: grid;
+    /* grid-template-columns: repeat(4, 1fr); */
+    grid-template-columns: 2fr 1fr 1fr 1fr;
+    justify-content: center;
+    /* align-items: center; */
+    grid-gap: 35px;
+}
+.one{
+    width: 100%;
+}
+.before{
+    padding: 10px;
+    width: 100%;
+    position: relative;
+}
+.before::before{
+    content: '';
+    display: block;
+    position: absolute;
+    background: #fff;
+    width: 100%;
+    height: 1.5px;
+    transform: translate(-4%, 0%);
+}
+
