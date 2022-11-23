@@ -1,9 +1,10 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+import '../Styles/Navbar.css'
 
 const Navber = () => {
     return (
-        <div >
+        <div className='navber'>
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <div class="container-fluid">
 

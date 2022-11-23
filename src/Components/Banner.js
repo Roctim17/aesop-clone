@@ -1,9 +1,22 @@
 import React from 'react';
 import '../Styles/Banner.css'
+import { AiOutlineSearch } from "react-icons/ai";
+import { HiOutlineMenuAlt4 } from "react-icons/hi";
 
 const Banner = () => {
     return (
         <div className='banner'>
+            <nav className='nav'>
+                <div className='logo'>
+                   <h3>Aesop</h3>
+                </div>
+                <div className='menu'>
+                    <div><AiOutlineSearch/></div>
+                    <div><p>Cart</p></div>
+                    <div><HiOutlineMenuAlt4/></div>
+
+                </div>
+            </nav>
             <div className='text'>
                 <div className='title'>
                     <h1>Aesop</h1>

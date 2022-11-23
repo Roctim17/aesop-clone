@@ -28,16 +28,41 @@
     padding-right: 100px;
     font-weight: bold;
 }
+.nav{
+    display: none;
+}
 @media only screen and (max-width:688px) {
+    .nav{
+        display: block;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 25px;
+    }
+    .menu{
+        display: flex;
+        /* grid-template-columns: repeat(3,1fr); */
+        gap: 25px;
+        justify-content: space-around;
+    }
     .banner{
-        background-size:cover;
-        background-position:calc(-750px);
+        background: url('../assets/image/banner2.jpg');
+        background-size:contain;
+        background-position:center;
         background-repeat: no-repeat;
+        margin-bottom: 300px;
+    }
+    .text .title{
+        display: none;
     }
     .banner, .text{
         flex-direction: column;
+        
         /* text-align: center; */
       
+    }
+    .text{
+        padding-top: 480px;
     }
     .custom-btn{
         padding: 20px;
