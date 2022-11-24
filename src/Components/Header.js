@@ -5,8 +5,8 @@ import '../Styles/Header.css'
 const Header = () => {
     return (
         <div className='header'>
-            <p>Our privacy policy has been updated effective 31 August. <Link >Read privacy policy</Link></p>
-            <p className='two'>Click and Collect is now available. Enjoy complimentary carbon neutral shipping on all orders   +</p>
+            <p className='header-one'>Our privacy policy has been updated effective 31 August. <Link >Read privacy policy</Link></p>
+            <p className='two'><span>Click and Collect is now available. Enjoy complimentary carbon neutral shipping on all orders </span>  <span>+</span> </p>
         </div>
     );
 };

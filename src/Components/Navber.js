@@ -5,14 +5,14 @@ import '../Styles/Navbar.css'
 const Navber = () => {
     return (
         <div className='navber'>
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <nav class="navbar navbar-expand-lg navbar-light ">
                 <div class="container-fluid">
 
                     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span class="navbar-toggler-icon"></span>
                     </button>
-                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 py-3">
+                    <div class="collapse navbar-collapse px-2" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0 py-2">
                             <li class="nav-item">
                                 <Link class="nav-link active" aria-current="page" href="#">Skin Care</Link>
                             </li>

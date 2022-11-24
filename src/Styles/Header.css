@@ -1,7 +1,7 @@
 .header{
     background: #a6672b;
     text-align: center; 
-    color: #fff;
+    color: #fffef2;
 }
 .header p{
     font-size: .9rem;
@@ -9,7 +9,7 @@
     margin: 0;
 }
 .header a{
-    color: #fff;
+    color: #fffef2;
     font-weight: 700;
     text-decoration: none;
 }
@@ -19,5 +19,28 @@
 .header .two{
     background: #252525;
     text-align: center; 
-    color: #fff;
+    color: #fffef2;
+}
+@media only screen and (max-width:688px){
+    .header{
+        text-align: left;
+    }
+    .header .two{
+        text-align: left;
+    }
+    .header .header-one{
+        padding: 15px 25px;
+        line-height: 20px;
+    }
+    
+    .two{
+        padding: 15px 25px;
+        display: flex;
+        justify-content: space-between;
+        gap: 80px;
+        align-items: center;
+    }
+    .two span{
+        line-height: 20px;
+    }
 }

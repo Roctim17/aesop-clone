@@ -10,10 +10,15 @@
 }
 .text{
     display: flex;
-    padding: 110px 50px;
-    justify-content: space-around;
-    align-items: flex-start;
-    gap: 100px;
+    padding: 100px 50px;
+    justify-content:flex-start;
+    gap: 10px;
+}
+.title{
+    width: 20%;
+}
+.text .text-area{
+    width: 40%;
 }
 .custom-btn{
     border: 1px solid #b6a38d;
@@ -22,7 +27,7 @@
 }
 .custom-btn:hover{
     background: #252525;
-    color: #fff;
+    color: #fffef2;
 }
 .btn-text{
     padding-right: 100px;
@@ -56,6 +61,9 @@
     .text .title{
         display: none;
     }
+    .text .text-area{
+        width: 100%;
+    }
     .banner, .text{
         flex-direction: column;
         
@@ -63,12 +71,13 @@
       
     }
     .text{
-        padding: 15px;
-        padding-top: 300px;
+        padding: 350px 15px 15px 15px;
     }
     .custom-btn{
         padding: 20px;
         width: 100%;
+        display: flex;
+        justify-content: space-between;
     }
     .btn-text{
         padding-right: 50px;
