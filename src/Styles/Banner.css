@@ -50,7 +50,8 @@
         background-size:contain;
         background-position:center;
         background-repeat: no-repeat;
-        margin-bottom: 300px;
+        margin-bottom: 100px;
+        background-position-y: -10%;
     }
     .text .title{
         display: none;
@@ -62,10 +63,12 @@
       
     }
     .text{
-        padding-top: 480px;
+        padding: 15px;
+        padding-top: 300px;
     }
     .custom-btn{
         padding: 20px;
+        width: 100%;
     }
     .btn-text{
         padding-right: 50px;

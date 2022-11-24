@@ -23,7 +23,7 @@ const Banner = () => {
                 </div>
                 <div>
                     <h3>The Poetry of Place</h3>
-                    <p className='py-3'>The sun rises on four new Gift Kits, each inspired by the <br /> design of an Aesop store and the   neighbourhood in which <br /> it resides.</p>
+                    <p className='py-3'>The sun rises on four new Gift Kits, each inspired by the  design of an Aesop store and the   neighbourhood in which  it resides.</p>
                     <button className='btn custom-btn'> <span className='btn-text'>Explore the Gift Kits </span> <i class="fas fa-arrow-right"></i></button>
                 </div>
             </div>
